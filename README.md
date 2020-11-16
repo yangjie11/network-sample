@@ -1,31 +1,33 @@
 # network samples package
 
-## 1、介绍
+[中文页](README_ZH.md) | English
 
-这个软件包包含一些网络操作的例程。
+## 1 Introduction
 
-### 1.1例程说明
+This package contains some network operation routines.
 
-| 文件             | 说明                            |
+### 1.1 Routine Description
+
+| File | Description |
 | ---------------- | ------------------------------- |
-| httpclient_sample.c       | 创建一个 http 客户端获取天气数据       |
-| tcpclient_sample.c        | 创建一个 TCP 客户端             |
-| tcpserver_sample.c        | 创建一个 TCP 服务端             |
-| udpclient_sample.c        | 创建一个 UDP 客户端             |
-| udpserver_sample.c        | 创建一个 UDP 服务端             |
-| tcpclient_select_sample.c | 使用 select 接口实现 TCP 客户端 |
+| httpclient_sample.c | Create an http client to get weather data |
+| tcpclient_sample.c | Create a TCP client |
+| tcpserver_sample.c | Create a TCP server |
+| udpclient_sample.c | Create a UDP client |
+| udpserver_sample.c | Create a UDP server |
+| tcpclient_select_sample.c | Use select interface to implement TCP client |
 
-### 1.2 许可证
+### 1.2 License
 
-network samples package 遵循 Apache license v2.0 许可，详见 `LICENSE` 文件。
+The network samples package complies with the Apache license v2.0, see the `LICENSE` file for details.
 
-### 1.3 依赖
+### 1.3 Dependency
 
-依赖网络组件。
+Rely on network components.
 
-## 2、如何打开 network samples package
+## 2. How to open the network samples package
 
-使用 network samples package 需要在 RT-Thread 的包管理器中选择它，具体路径如下：
+To use the network samples package, you need to select it in the RT-Thread package manager. The specific path is as follows:
 
 ```
 RT-Thread online packages
@@ -35,17 +37,17 @@ RT-Thread online packages
 
 ```
 
-然后让 RT-Thread 的包管理器自动更新，或者使用 `pkgs --update` 命令更新包到 BSP 中。
+Then let the RT-Thread package manager automatically update, or use the `pkgs --update` command to update the package to the BSP.
 
-## 3、使用 network samples package
+## 3. Use network samples package
 
-在打开 network samples package 后，当进行 BSP 编译时，选择的软件包相关源代码会被加入到 BSP 工程中进行编译。
+After opening the network samples package, when the BSP is compiled, the relevant source code of the selected software package will be added to the BSP project for compilation.
 
-## 4、注意事项
+## 4. Matters needing attention
 
-暂无。
+Nothing.
 
-## 5、联系方式 & 感谢
+## 5. Contact & Thanks
 
-* 维护：[misonyo](https://github.com/misonyo)
-* 主页：https://github.com/RT-Thread-packages/network-sample
+* Maintenance: [misonyo](https://github.com/misonyo)
+* Homepage: https://github.com/RT-Thread-packages/network-sample
